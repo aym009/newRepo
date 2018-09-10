@@ -1,4 +1,32 @@
-body {
-  color: #000;
-  text-align: center;
+#dropSampleA,
+#dropSampleB {
+    float: left;
+    width: 280px;
+    min-height: 181px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+#dropSampleA {
+    background-color: red;
+}
+#dropSampleB {
+    background-color: blue;
+}
+#dragSampleA,
+#dragSampleB,
+#dragSampleC {
+    width: 258px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid gray;
+    text-align: center;
+}
+#dragSampleA {
+    background-color: pink;
+}
+#dragSampleB {
+    background-color: lightblue;
+}
+#dragSampleC {
+    background-color: lightgreen;
 }
